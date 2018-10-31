@@ -4,8 +4,8 @@
 
 # Site
 title: Varygod
-subtitle: this is my blog
-description:
+subtitle: stay hungry , stay foolish
+description: 坚持是值得的
 author: Varygod
 language: zh-CN
 timezone:
@@ -21,11 +21,19 @@ permalink_defaults:
 source_dir: source
 public_dir: public
 tag_dir: tags
+music_dir: music
 archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
 
 # Writing
 new_post_name: :title.md # File name of new posts
