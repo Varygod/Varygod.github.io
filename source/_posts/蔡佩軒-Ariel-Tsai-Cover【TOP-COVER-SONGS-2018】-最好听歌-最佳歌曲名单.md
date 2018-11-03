@@ -8,9 +8,8 @@ type: music
 
 
 
-
-
-![](http://pgwh8fe8h.bkt.clouddn.com/maxresdefault.jpg)
+![封面](http://pgwh8fe8h.bkt.clouddn.com/maxresdefault.jpg)
+<!--more-->
 
 -------
 
