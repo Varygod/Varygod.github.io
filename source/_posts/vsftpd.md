@@ -7,6 +7,9 @@ categories: 嵌入式
 
 
 
+![](http://pgwh8fe8h.bkt.clouddn.com//15417683450618.jpg)
+<!--more-->
+
 # 一、简介
 >vsftpd即very secure FTP daemon（非常安全的FTP进程），是一个基于GPL发布的类UNIX类操作系统上运行的服务器的名字（是一种守护进程），可以运行在诸如Linux、BSD、Solaris、HP-UX以及Irix等系统上面。vsftpd支持很多其他传统的FTP服务器不支持的良好特性。使用 vsftpd 可以在 Linux/Unix 系统上搭建一个安全、高性能、稳定性好的轻量级FTP服务器。
 
