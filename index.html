@@ -1112,7 +1112,7 @@ More info: Deployment
           <h1 class="post-title" itemprop="name headline">
                 
                 <a class="post-title-link" href="/2018/07/15/vsftpd/" itemprop="url">
-                  vsftpd
+                  vsftpd服务器的移植
                 </a>
               
             
@@ -1155,12 +1155,30 @@ More info: Deployment
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2018-10-24 01:35:26" itemprop="dateModified" datetime="2018-10-24T01:35:26+08:00">2018-10-24</time>
+                <time title="修改时间：2018-11-09 20:10:25" itemprop="dateModified" datetime="2018-11-09T20:10:25+08:00">2018-11-09</time>
               
             
           </span>
 
           
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/嵌入式/" itemprop="url" rel="index"><span itemprop="name">嵌入式</span></a></span>
+
+                
+                
+              
+            </span>
+          
 
           
             
@@ -1168,7 +1186,7 @@ More info: Deployment
 
           
           
-             <span id="/2018/07/15/vsftpd/" class="leancloud_visitors" data-flag-title="vsftpd">
+             <span id="/2018/07/15/vsftpd/" class="leancloud_visitors" data-flag-title="vsftpd服务器的移植">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1230,18 +1248,18 @@ More info: Deployment
       
         
           
-          vsftpd服务器的移植    —Writen By Pengsh时间：2017年9月26日
-一、简介
+          一、简介
 vsftpd即very secure FTP daemon（非常安全的FTP进程），是一个基于GPL发布的类UNIX类操作系统上运行的服务器的名字（是一种守护进程），可以运行在诸如Linux、BSD、Solaris、HP-UX以及Irix等系统上面。vsftpd支持很多其他传统的FTP服务器不支持的良好特性。使用 vsftpd 可以在 Linux/Unix 系统上搭建一个安全、高性能、稳定性好的轻量级FTP服务器。
 
 二、准备工作
  vsftpd源码包    vsftpd-3.0.2.tar.gz  下载入口
  arm-linux-gcc 交叉工具编译链  下载入口 
- linux平台（Ubuntu 12.04  32bit）PS:本人所使用的是arm-2009q1-203-arm-none-linux-gnueabi-i686-pc-linux-gnu.tar.bz2
+ linux平台（Ubuntu 12.04  32bit）
 
-
+1PS:本人所使用的是arm-2009q1-203-arm-none-linux-gnueabi-i686-pc-linux-gnu.tar.bz2
 三、编译vsftpd源码1、解压
-# tar -xvf vsftpd-3.0.2.tar.gz  -C /ho
+12# tar -xvf vsftpd-3.0.2.tar.gz  -C /home/zhangxu/# cd /home/vsptfd-3.0.2
+2、配置环境变量 
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1772,7 +1790,9 @@ vsftpd即very secure FTP daemon（非常安全的FTP进程），是一个基于G
                     
                       
                     
-                    <span class="site-state-item-count">2</span>
+                      
+                    
+                    <span class="site-state-item-count">3</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -1801,7 +1821,9 @@ vsftpd即very secure FTP daemon（非常安全的FTP进程），是一个基于G
                     
                       
                     
-                    <span class="site-state-item-count">8</span>
+                      
+                    
+                    <span class="site-state-item-count">9</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -2677,8 +2699,6 @@ vsftpd即very secure FTP daemon（非常安全的FTP进程），是一个基于G
 
 
 
-  <script type="text/javascript" src="/lib/clipboard/clipboard.js"></script>
-<script type="text/javascript" src="/js/src/custom.js"></script>
   <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
 
