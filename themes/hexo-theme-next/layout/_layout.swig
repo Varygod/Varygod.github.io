@@ -109,7 +109,6 @@
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/analytics/cnzz-analytics.swig' %}
-  {% include '_custom/custom.swig' %}
   <!-- 页面点击小红心 -->
 <script type="text/javascript" src="/js/src/love.js"></script>
 
