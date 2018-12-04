@@ -7,7 +7,7 @@ categories: 嵌入式
 
 
 
-![](http://www.varygod.top//15417683450618.jpg)
+![](http://image.varygod.top/15417683450618.jpg)
 <!--more-->
 
 # 一、简介
@@ -43,7 +43,7 @@ categories: 嵌入式
 
 ```
 	#vi Makefile
-	 CC =  /home/zhangxu/software/arm-2009q1/bin/arm-none-linux-gnueabi-gcc
+	 CC =  /home/myvpc/software/arm-2009q1/bin/arm-none-linux-gnueabi-gcc
 	 LIBS = './vsf_findlibs.sh' - lcrypt (参数- lcrypt ，否则编译提示找不到crypt)
 	 #vi vsf_findlibs.sh
 	 注释掉49-59行
