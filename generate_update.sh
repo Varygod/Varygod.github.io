@@ -1,5 +1,5 @@
 #!/bin/bash 
- 	git pull origin hexo  //先pull完成本地与远端的融合
+ 	git pull origin hexo  
 	#hexo new post " new blog name"
 	#git add source
 	git add .
