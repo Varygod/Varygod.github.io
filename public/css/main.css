@@ -2208,7 +2208,11 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
+<<<<<<< HEAD
   background: #4a9d88;
+=======
+  background: #794b2a;
+>>>>>>> c65ab10ef383595090bbf11eefa25d3aff2fd95e
 }
 .links-of-blogroll {
   font-size: 13px;
